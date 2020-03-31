@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-natereed-dev
+  AWS_PROFILE: dev
+  AWS_REGION: us-east-2
+  JWT_SECRET: helloworld
+  POSTGRESS_DB: udagramreeddev
+  POSTGRESS_HOST: udagramreeddev.cesuj37pwft0.us-east-2.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
+  namespace: default
+  
